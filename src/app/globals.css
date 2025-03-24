@@ -1,26 +1,207 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+ 
+.bluecolor {
+  color: #223a66;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.redcolor {
+  color: #e12454;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.line {
+  border-bottom: 7px solid #e12454;
+  width: 50px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+#ufooter1 {
+  background-color: #223a66 !important;
+  min-height: 50px;
+  color: white;
+  list-style: none;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+
+.anchor1 {
+  color: white;
+  /* Set the desired color */
+  overflow: hidden;
+  text-decoration: none;
+}
+
+/* 2snd Navbar */
+
+.nav2 {
+  min-height: 5rem;
+  line-height: 3.5rem;
+}
+
+/* Carousel */
+.Background_image {
+  background-image: url("/images/images/bg/slider-bg-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 76vh;
+}
+
+.left-text {
+  min-height: 500px;
+}
+
+#Chop1 {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+#h2 {
+  font-size: 58px;
+  font-weight: bolder;
+  color: #223a66;
+}
+
+#Chop2 {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.btn1 {
+  height: 50px;
+  width: 250px;
+  background-color: #e12454;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  transition: all .5s;
+}
+
+.btn1:hover {
+  background-color: #223a66;
+  transition: all .5s;
+}
+
+.btn1-sm {
+  height: 50px;
+  width: 180px;
+  background-color: #e12454;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  transition: all .5s;
+}
+
+.btn1-sm:hover {
+  background-color: #223a66;
+  transition: all .5s;
+}
+
+#Container_Box {
+  transform: translateY(-70px);
+}
+
+.box {
+  height: 350px;
+}
+
+
+/* Personal Care */
+
+/* Count Section */
+.Outer_Count {
+  min-height: 210px;
+  background-image: url('/images/images/bg/bg-4.jpg');
+  background-size: contain;
+  background-position: center;
+  /* transform: translateY(70px); */
+}
+
+.InnerCount {
+  min-height: 210px;
+  background-color: #223a66;
+  opacity: .9;
+}
+
+.InnerCount h1 {
+  font-size: 70px;
+  color: white;
+}
+
+
+/* Award Section */
+.AwardSectionOuter1 {
+  min-height: 850px;
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+.AwardIcon1 {
+  font-size: 56px;
+}
+
+.awardbox {
+  min-height: 180px;
+  background-color: white;
+  transition: all .5s;
+}
+
+.awardbox:hover {
+  transform: scale(.95);
+  transition: all .5s;
+}
+
+/* Booking */
+
+#Outer_Service {
+  margin: 100px 0px;
+}
+
+.Service_Img {
+  max-height: 650px;
+}
+
+/* Feedback Section */
+.OuterFeedBack {
+  min-height: 750px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.OuterFeedBack img {
+  height: 80px;
+  width: 80px;
+}
+
+.FeedBAck_Box {
+  background-color: white;
+}
+
+.carousel-indicators {
+  top: 320px;
+}
+
+.carousel-indicators button {
+  height: 7px !important;
+  width: 7px !important;
+}
+
+/* Partner Section */
+
+.partnerouter {
+  min-height: 500px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+/* Footer Section */
+
+.footerouter {
+  min-height: 470px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.icon {
+  height: 45px;
+  width: 45px;
+  background-color: grey;
+  border-radius: 50%;
 }
