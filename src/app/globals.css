@@ -1,207 +1,232 @@
- 
-.bluecolor {
-  color: #223a66;
-}
+ .bluecolor {
+   color: #223a66;
+ }
 
-.redcolor {
-  color: #e12454;
-}
+ .redcolor {
+   color: #e12454;
+ }
 
-.line {
-  border-bottom: 7px solid #e12454;
-  width: 50px;
-}
+ .line {
+   border-bottom: 7px solid #e12454;
+   width: 50px;
+ }
 
-#ufooter1 {
-  background-color: #223a66 !important;
-  min-height: 50px;
-  color: white;
-  list-style: none;
-  font-size: 16px;
-  box-sizing: border-box;
+ #ufooter1 {
+   background-color: #223a66 !important;
+   min-height: 50px;
+   color: white;
+   list-style: none;
+   font-size: 16px;
+   box-sizing: border-box;
 
-}
+ }
 
-.anchor1 {
-  color: white;
-  /* Set the desired color */
-  overflow: hidden;
-  text-decoration: none;
-}
+ .anchor1 {
+   color: white;
+   /* Set the desired color */
+   overflow: hidden;
+   text-decoration: none;
+ }
 
-/* 2snd Navbar */
+ /* 2snd Navbar */
 
-.nav2 {
-  min-height: 5rem;
-  line-height: 3.5rem;
-}
+ .nav2 {
+   min-height: 5rem;
+   line-height: 3.5rem;
+ }
 
-/* Carousel */
-.Background_image {
-  background-image: url("/images/images/bg/slider-bg-1.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 76vh;
-}
+ /* Carousel */
+ .Background_image {
+   background-image: url("/images/images/bg/slider-bg-1.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 76vh;
+ }
 
-.left-text {
-  min-height: 500px;
-}
+ .left-text {
+   min-height: 500px;
+ }
 
-#Chop1 {
-  font-size: 18px;
-  opacity: 0.6;
-}
+ #Chop1 {
+   font-size: 18px;
+   opacity: 0.6;
+ }
 
-#h2 {
-  font-size: 58px;
-  font-weight: bolder;
-  color: #223a66;
-}
+ #h2 {
+   font-size: 58px;
+   font-weight: bolder;
+   color: #223a66;
+ }
 
-#Chop2 {
-  font-size: 16px;
-  opacity: 0.5;
-}
+ #Chop2 {
+   font-size: 16px;
+   opacity: 0.5;
+ }
 
-.btn1 {
-  height: 50px;
-  width: 250px;
-  background-color: #e12454;
-  border: none;
-  border-radius: 50px;
-  color: white;
-  transition: all .5s;
-}
+ .btn1 {
+   height: 50px;
+   width: 250px;
+   background-color: #e12454;
+   border: none;
+   border-radius: 50px;
+   color: white;
+   transition: all .5s;
+ }
 
-.btn1:hover {
-  background-color: #223a66;
-  transition: all .5s;
-}
+ .btn1:hover {
+   background-color: #223a66;
+   transition: all .5s;
+ }
 
-.btn1-sm {
-  height: 50px;
-  width: 180px;
-  background-color: #e12454;
-  border: none;
-  border-radius: 50px;
-  color: white;
-  transition: all .5s;
-}
+ .btn1-sm {
+   height: 50px;
+   width: 180px;
+   background-color: #e12454;
+   border: none;
+   border-radius: 50px;
+   color: white;
+   transition: all .5s;
+ }
 
-.btn1-sm:hover {
-  background-color: #223a66;
-  transition: all .5s;
-}
+ .btn1-sm:hover {
+   background-color: #223a66;
+   transition: all .5s;
+ }
 
-#Container_Box {
-  transform: translateY(-70px);
-}
+ #Container_Box {
+   transform: translateY(-70px);
+ }
 
-.box {
-  height: 350px;
-}
-
-
-/* Personal Care */
-
-/* Count Section */
-.Outer_Count {
-  min-height: 210px;
-  background-image: url('/images/images/bg/bg-4.jpg');
-  background-size: contain;
-  background-position: center;
-  /* transform: translateY(70px); */
-}
-
-.InnerCount {
-  min-height: 210px;
-  background-color: #223a66;
-  opacity: .9;
-}
-
-.InnerCount h1 {
-  font-size: 70px;
-  color: white;
-}
+ .box {
+   height: 350px;
+ }
 
 
-/* Award Section */
-.AwardSectionOuter1 {
-  min-height: 850px;
-  padding-top: 200px;
-  box-sizing: border-box;
-}
+ /* Personal Care */
 
-.AwardIcon1 {
-  font-size: 56px;
-}
+ /* Count Section */
+ .Outer_Count {
+   min-height: 210px;
+   background-image: url('/images/images/bg/bg-4.jpg');
+   background-size: contain;
+   background-position: center;
+   /* transform: translateY(70px); */
+ }
 
-.awardbox {
-  min-height: 180px;
-  background-color: white;
-  transition: all .5s;
-}
+ .InnerCount {
+   min-height: 210px;
+   background-color: #223a66;
+   opacity: .9;
+ }
 
-.awardbox:hover {
-  transform: scale(.95);
-  transition: all .5s;
-}
+ .InnerCount h1 {
+   font-size: 70px;
+   color: white;
+ }
 
-/* Booking */
 
-#Outer_Service {
-  margin: 100px 0px;
-}
+ /* Award Section */
+ .AwardSectionOuter1 {
+   min-height: 850px;
+   padding-top: 200px;
+   box-sizing: border-box;
+ }
 
-.Service_Img {
-  max-height: 650px;
-}
+ .AwardIcon1 {
+   font-size: 56px;
+ }
 
-/* Feedback Section */
-.OuterFeedBack {
-  min-height: 750px;
-  padding-top: 100px;
-  box-sizing: border-box;
-}
+ .awardbox {
+   min-height: 180px;
+   background-color: white;
+   transition: all .5s;
+ }
 
-.OuterFeedBack img {
-  height: 80px;
-  width: 80px;
-}
+ .awardbox:hover {
+   transform: scale(.95);
+   transition: all .5s;
+ }
 
-.FeedBAck_Box {
-  background-color: white;
-}
+ /* Booking */
 
-.carousel-indicators {
-  top: 320px;
-}
+ #Outer_Service {
+   margin: 100px 0px;
+ }
 
-.carousel-indicators button {
-  height: 7px !important;
-  width: 7px !important;
-}
+ .Service_Img {
+   max-height: 650px;
+ }
 
-/* Partner Section */
+ /* Feedback Section */
+ .OuterFeedBack {
+   min-height: 750px;
+   padding-top: 100px;
+   box-sizing: border-box;
+ }
 
-.partnerouter {
-  min-height: 500px;
-  padding-top: 100px;
-  box-sizing: border-box;
-}
+ .OuterFeedBack img {
+   height: 80px;
+   width: 80px;
+ }
 
-/* Footer Section */
+ .FeedBAck_Box {
+   background-color: white;
+ }
 
-.footerouter {
-  min-height: 470px;
-  padding-top: 100px;
-  box-sizing: border-box;
-}
+ .carousel-indicators {
+   top: 320px;
+ }
 
-.icon {
-  height: 45px;
-  width: 45px;
-  background-color: grey;
-  border-radius: 50%;
-}
+ .carousel-indicators button {
+   height: 7px !important;
+   width: 7px !important;
+ }
+
+ /* Partner Section */
+
+ .partnerouter {
+   min-height: 500px;
+   padding-top: 100px;
+   box-sizing: border-box;
+ }
+
+ /* Footer Section */
+
+ .footerouter {
+   min-height: 470px;
+   padding-top: 100px;
+   box-sizing: border-box;
+ }
+
+ .icon {
+   height: 45px;
+   width: 45px;
+   background-color: grey;
+   border-radius: 50%;
+ }
+
+ /* AdminLogin */
+
+ .AdminSubmitbtn {
+  
+  background: linear-gradient(to right, #3a54a5, #f2486b);
+
+
+
+ }
+
+ .AdminSubmitbtn:hover {
+   /* background: linear-gradient(to right, #223a66, #e12454); */
+   color: white;
+ }
+
+ .heading1 {
+   color: #e12454;
+ }
+
+  
+
+ .selectHover:hover {
+   background-color: #e12454;
+   color: aliceblue
+ }

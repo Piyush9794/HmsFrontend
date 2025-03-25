@@ -8,10 +8,11 @@ import FooterSection from "@/Components/landingPage/FooterSection";
 import Partners from "@/Components/landingPage/Partners";
 import PersonalCare from "@/Components/landingPage/PersonalCare";
 import Services from "@/Components/landingPage/Services";
+import Navbar from "@/Components/landingPage/Navbar";
 export default function Home() {
   return (
     <>
-
+      <Navbar />
       <Carousel />
       <PersonalCare />
       <Count />
